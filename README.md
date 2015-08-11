@@ -1,5 +1,16 @@
-jLibSVM
-=======
+JLibSVM
+================
+
+This is a stable, cleaned-up release of jlibsvm.  Jlibsvm is itself a refactor of libsvm,
+which appears to be directly ported from C.
+
+## Compiling
+
+JLibSVM uses maven.  To generate the required library jars, use:
+
+    $ mvn package
+
+
 
 _Efficient training of Support Vector Machines in Java_
 
